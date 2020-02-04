@@ -8,27 +8,21 @@ namespace Store
 {
     class Game
     {
-        /*
-        public img[] ShowcaseImg;
-        public int Price;
-        public int SalesPer;
-        public object DLC;
 
-        Void Start()
+        string[] Genre;
+        public float price;
+        public float salesPer;
+        public List<DLC> dlcs;
+        string name;
+        string description;
+        string systemrequirements;
+        int metacritic;
+
+        public Game(string name, string description, float price)
         {
-            Get the img Array and show the on the games site
-
-            if(DLC exists)
-            {
-                Get the DLC and add it to the game site
-            }
+            this.name = name;
+            this.description = description;
+            this.price = price;
         }
-
-        void OnClick()
-        {
-            Add to cart
-        }
-
-    */
     }
 }

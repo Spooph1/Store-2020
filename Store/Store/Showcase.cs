@@ -8,24 +8,26 @@ namespace Store
 {
     class Showcase
     {
-        /*
-        public object[] Game; 
+        Game[] games;
 
-        Void Start()
+        public Showcase(int size)
         {
-            //Get games from another class and add them to the array
+            games = new Game[size];
         }
 
-        public void CirleTroughGames()
+        public void addGame()
         {
-            //Circles trough the game array to show the games on showcase
+
         }
 
-        public void OnClick()
+        public void removeGame()
         {
-            //Go to the gamesite 
+
         }
 
-        */
+        public void ShowGames()
+        {
+
+        }
     }
 }
